@@ -1,0 +1,38 @@
+#libraries
+from scipy import stats
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+from tensorflow.keras.callbacks import TensorBoard
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.utils import to_categorical
+import cv2
+import numpy as np
+import os
+from matplotlib import pyplot as plt
+import time
+import mediapipe as mp
+import tensorflow as tf
+import tkinter as tk
+import os
+import cv2
+import sys
+from PIL import Image, ImageTk
+from PIL.Image import Resampling
+from tkinter import PhotoImage
+
+
+The libraries can be downloaded by writing the names above with pip install library_name, or they can be downloaded by writing
+pip install -r requirements.txt
+in the command window (cmd) of conda or jupyter notebook using the created requirements.txt file.
+
+
+After the libraries are loaded
+model_uygulama2.h5
+logo.jpg
+10-TRTSLR.ipynb 
+The files should be placed in the directory where the jupyter notebook is connected.
+
+Then, the 10-TRTSLR.ipynb file should be run in order from the beginning.
+
+Once these steps have been completed, the code can be started by pressing the "start" button in the upper left corner of the user interface that opens.
+This method has been tested on three different computers and has worked successfully.
